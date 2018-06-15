@@ -1,0 +1,34 @@
+#container {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(209, 209, 216);
+    width: 600px;
+    height: 600px;
+    margin: 10px auto 10px;
+    justify-content: center;
+}
+
+#buttons {
+    width: 800px;
+    margin: auto;
+    text-align: center;
+}
+
+h1 {
+    width: 600px;
+    margin: auto;
+    text-align: center;
+}
+
+.colorButtons {
+    position: absolute;
+    width: 170px;
+    text-align: right;
+    top: 150px;
+    left: 20px;
+}
+
+.blackButton {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
