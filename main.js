@@ -91,6 +91,6 @@ function getColor(grid) {
 
 
 
-let customButton = document.querySelector(".customButton");
+//let customButton = document.querySelector(".customButton");
 //make the user input a custom color through a color selection menu 
 //and change the sketch color to match
