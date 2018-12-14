@@ -23,7 +23,7 @@ h1 {
 .colorButtons {
     position: absolute;
     width: 170px;
-    text-align: right;
+    text-align: center;
     top: 150px;
     left: 20px;
 }
@@ -31,4 +31,10 @@ h1 {
 .blackButton {
     margin-top: 50px;
     margin-bottom: 50px;
+}
+
+@media only screen and (max-width: 900px){
+    .colorButtons{
+        display:none;
+    }
 }
